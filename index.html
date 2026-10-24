@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المبرمج D. V. ABDELDAYM</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e1b4b);
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px 25px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .img-container {
+            position: relative;
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 20px;
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #38bdf8;
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            color: #38bdf8;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        p {
+            font-size: 15px;
+            color: #94a3b8;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            padding: 14px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 10px 20px rgba(34, 197, 94, 0.35);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px rgba(34, 197, 94, 0.45);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="img-container">
+            <img src="myphoto.jpg" alt="المبرمج عبد الدائم">
+        </div>
+        <div class="badge">SOFTWARE DEVELOPER</div>
+        <h1>المبرمج D. V. ABDELDAYM</h1>
+        <p>مطور برمجيات وحلول ويب متكاملة، شغوف بتحويل الأفكار إلى منصات رقمية ذكية، وتطبيقات مخصصة تلبي تطلعات المستقبل بكل احترافية وإبداع.</p>
+        
+        <a href="https://wa.me/249116752390" class="whatsapp-btn" target="_blank">
+            <span>تواصل عبر الواتساب</span>
+        </a>
+    </div>
+
+</body>
+</html>
